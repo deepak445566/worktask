@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://worktask-jade.vercel.app",
+    origin: "https://worktask-alpha.vercel.app",
     credentials: true,
   }),
 );

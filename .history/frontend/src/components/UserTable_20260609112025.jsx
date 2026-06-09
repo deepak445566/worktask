@@ -1,4 +1,4 @@
-
+// UserTable.jsx
 function UserTable({ users, onEdit, onDelete }) {
   return (
     <div className="overflow-x-auto">
