@@ -143,7 +143,7 @@ export const googleAuthSuccess = async (req, res) => {
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
-    res.redirect("https://task2-weld-mu.vercel.app/dashboard");
+    res.redirect("https://task2-d8fi.vercel.app/dashboard");
   } catch (error) {
     res.status(500).json({
       success: false,

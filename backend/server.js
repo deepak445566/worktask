@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://task2-weld-mu.vercel.app",
+    origin: "https://task2-d8fi.vercel.app",
     credentials: true,
   }),
 );

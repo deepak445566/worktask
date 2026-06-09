@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://task2-ky99.onrender.com/api",
+  baseURL: "https://worktask-zb5c.onrender.com/api",
   withCredentials: true,
 });
 

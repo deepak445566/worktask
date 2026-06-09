@@ -17,7 +17,7 @@ authRouter.get(
 authRouter.get(
   "/google/callback",
   passport.authenticate("google", {
-    failureRedirect: "https://task2-weld-mu.vercel.app/login",
+    failureRedirect: "https://task2-d8fi.vercel.app/login",
     session: true,
   }),
   googleAuthSuccess,
